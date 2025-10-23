@@ -24,23 +24,17 @@
   transform: scale(1.05);
 }
 
-/*
 
-.producto-titulo {
-  font-size: 1.1rem;
-  margin-top: 8px;
-  color: #333;
-}*/
 
 .productos-container {
-  display: flex;           /* alinea los items en fila */
-  flex-wrap: wrap;         /* permite que se vayan a la siguiente línea si no caben */
-  gap: 1rem;               /* espacio entre las tarjetas */
-  justify-content: flex-start; /* opcional: alinea a la izquierda */
+  display: flex;           
+  flex-wrap: wrap;         
+  gap: 1rem;               
+  justify-content: flex-start; 
 }
 
 .producto-card {
-  flex: 1 1 200px;         /* ancho mínimo 200px, se adapta al espacio */
+  flex: 1 1 200px;         
   border: 1px solid #ddd;
   border-radius: 8px;
   padding: 16px;
