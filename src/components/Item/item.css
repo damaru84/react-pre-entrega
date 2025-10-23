@@ -1,4 +1,15 @@
+
+.producto-card img {
+  width: 100%;           /* que ocupe todo el ancho del contenedor */
+  height: 200px;         /* alto fijo */
+  object-fit: cover;     /* recorta la imagen sin deformarla */
+  border-radius: 8px;    /* opcional, bordes suaves */
+}
+
+
+
 .producto-card {
+  background-color: white;
   border: 1px solid #ddd;
   border-radius: 8px;
   padding: 16px;
@@ -13,17 +24,13 @@
   transform: scale(1.05);
 }
 
-.producto-card img {
-  width: 100%;
-  height: auto;
-  border-radius: 4px;
-}
+/*
 
 .producto-titulo {
   font-size: 1.1rem;
   margin-top: 8px;
   color: #333;
-}
+}*/
 
 .productos-container {
   display: flex;           /* alinea los items en fila */

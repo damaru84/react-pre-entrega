@@ -1,13 +1,4 @@
-/*
-export const ItemList = ({lista}) => {
-    return (<>
-    {lista.length ? (
-        lista.map((producto) => <Link to= {`/details/${producto.id}`} key={producto.id}></Link>)
-    ):(
-        <p> No hay productos </p>
-    )}
-    </>);
-}   */
+
 import "./Item.css";
 
 export const Item = ({ name, price, description, imageUrl, children }) => {
