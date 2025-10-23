@@ -1,0 +1,50 @@
+[
+    {
+        "id": "1",
+        "name": "Nokia 1100",
+        "price": 79,
+        "category": "GSM",
+        "descripcion": "funciones básicas de llamada y mensajes de texto",
+        "imageUrl": "/images/1.png"
+    },
+    {
+        "id": "2",
+        "name": "Siemens A57",
+        "price": 90,
+        "category": "GSM",
+        "descripcion": "diseño básico y funcionalidades limitadas",
+        "imageUrl": "/images/2.png"
+    },
+    {
+        "id": "3",
+        "name": "Motorola C115",
+        "price": 50,
+        "category": "GSM",
+        "descripcion": "diseño ergonómico y su enfoque en las funciones básicas de comunicación",
+        "imageUrl": "/images/3.png"
+    },
+    {
+        "id": "4",
+        "name": "Kyocera KX414",
+        "price": 70,
+        "category": "antena",
+        "descripcion": "incluye una pantalla a color",
+        "imageUrl": "/images/4.png"
+    },
+    {
+        "id": "5",
+        "name": "Samsung SGH-R220",
+        "price": 80,
+        "category": "antena",
+        "descripcion": "teléfono compacto y ligero",
+        "imageUrl": "/images/5.png"
+    },
+        {
+        "id": "6",
+        "name": "Sony Ericsson T230",
+        "price": 90,
+        "category": "GSM",
+        "descripcion": "tecnología 2G y no tiene cámara",
+        "imageUrl": "/images/6.png"
+    }
+]
